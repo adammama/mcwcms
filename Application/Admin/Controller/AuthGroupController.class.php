@@ -89,6 +89,7 @@ class AuthGroupController extends CommonController
 
     public function delselect()
     {
+        #test
         $ids=I('ids','','trim');
         if(!empty($ids)){
             $condition['id']=array('in',$ids);
