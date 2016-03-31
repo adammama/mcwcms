@@ -1,0 +1,63 @@
+<div class="bjui-pageContent">
+    <form action="{:U('add')}" class="pageForm" data-toggle="validate">
+        <div class="pageFormContent" data-layout-h="0">
+          <table class="table table-condensed table-hover" width="100%">
+           <tbody>
+			<tr>
+				<td><label for='userpidname' class='control-label x85'>父级菜单:</label>
+					<select name='pid' id='pid' style="min-width: 80px;">{$info.pidOption}</select>
+				</td>
+				<td><label for='sort' class='control-label x85'>排序:</label>
+					<input type='text' id='sort' name='sort' value='1' data-rule='required;' size='5'></td>
+			</tr>
+			<tr>
+				<td><label for='title' class='control-label x85'>标题:</label>
+					<input type='text' id='title' name='title' data-rule='required;' size='20'>
+				</td>
+				<td><label for='status' class='control-label x85'>状态:</label>
+					<select name="status" data-toggle="selectpicker">
+			            <option value="1" selected>激活</option>
+			            <option value="0">锁定</option>
+			        </select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for='url' class='control-label x85'>链接:</label>
+					<input type='text' id='url' name='url' data-rule='required;' size='20'>
+				</td>
+				<td><label for='open' class='control-label x85'>是否折叠:</label>
+					<select name="open" data-toggle="selectpicker">
+			            <option value="1" selected>展开</option>
+			            <option value="0">折叠</option>
+			        </select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for='hide' class='control-label x85'>是否隐藏:</label>
+                        <input type="radio" name="hide" id="hide1" data-toggle="icheck" value="1" data-label="是&nbsp;&nbsp;">
+                        <input type="radio" name="hide" id="hide2" data-toggle="icheck" value="0" data-label="否" checked>
+				</td>
+				<td><label for='is_dev' class='control-label x85'>仅开发者可见:</label>
+                        <input type="radio" name="is_dev" id="is_dev1" data-toggle="icheck" value="1" data-label="是&nbsp;&nbsp;">
+                        <input type="radio" name="is_dev" id="is_dev2" data-toggle="icheck" value="0" data-label="否" checked>
+				</td></tr>
+			<tr>
+				<td colspan="2"><label for='group' class='control-label x85'>分组:</label>
+					<input type='text' id='group' name='group' data-rule='分组:required;' size='65'>
+				</td>
+			</tr>
+			<tr><td colspan=2><label for='remark' class='control-label x85'>说明:</label>
+				<textarea name='remark' cols='65' rows='2' ></textarea></td></tr>
+			<tr><td></td></tr>
+           </tbody>
+          </table>
+        </div>
+        <div class="bjui-footBar">
+            <ul>
+            	&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="btn-default" data-icon="save">保存</button>&nbsp;&nbsp;
+                <button type="button" class="btn-close" data-icon="close">取消</button>
+                
+            </ul>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,88 @@
+<div class="bjui-pageContent">
+    <form action="{:U('edit')}" class="pageForm" data-toggle="validate">
+    	<input type="hidden" name="id" value="{$info.id}">
+        <div class="pageFormContent" data-layout-h="0">
+          <table class="table table-condensed table-hover" width="100%">
+           <tbody>
+			<tr>
+				<td><label for='userpidname' class='control-label x85'>父级菜单:</label>
+					<select name='pid' id='pid' style="min-width: 80px;">{$info.pidOption}</select>
+				</td>
+				<td><label for='sort' class='control-label x85'>排序:</label>
+					<input type='text' id='sort' name='sort' data-rule='required;' size='5' value="{$info.sort}"></td>					
+			</tr>
+			<tr>
+				<td><label for='title' class='control-label x85'>标题:</label>
+					<input type='text' id='title' name='title' data-rule='required;' size='20' value="{$info.title}">
+				</td>
+				<td><label for='status' class='control-label x85'>状态:</label>
+					<select name="status" data-toggle="selectpicker">
+						<if condition="$info.status gt 0 ">
+				            <option value="1" selected>激活</option>
+				            <option value="0">锁定</option>
+				        <else />
+				            <option value="1">激活</option>
+				            <option value="0" selected>锁定</option>
+						</if>
+
+			        </select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for='url' class='control-label x85'>链接:</label>
+					<input type='text' id='url' name='url' data-rule='required;' size='20' value="{$info.url}">
+				</td>
+				<td><label for='open' class='control-label x85'>是否折叠:</label>
+					<select name="open" data-toggle="selectpicker">
+						<if condition="$info.open gt 0 ">
+				            <option value="1" selected>展开</option>
+				            <option value="0">折叠</option>
+				        <else />
+				            <option value="1">展开</option>
+				            <option value="0" selected>折叠</option>
+						</if>
+			        </select>
+			        
+			        
+				</td>
+			</tr>
+			<tr>
+				<td><label for='hide' class='control-label x85'>是否隐藏:</label>
+						<if condition="$info.hide lt 1 ">
+	                        <input type="radio" name="hide" id="hide1" data-toggle="icheck" value="1" data-rule="checked" data-label="是&nbsp;&nbsp;">
+	                        <input type="radio" name="hide" id="hide2" data-toggle="icheck" value="0" data-label="否" checked>
+                        <else />
+                        	<input type="radio" name="hide" id="hide1" data-toggle="icheck" value="1" data-rule="checked" data-label="是&nbsp;&nbsp;" checked>
+	                        <input type="radio" name="hide" id="hide2" data-toggle="icheck" value="0" data-label="否">
+                       </if>
+                        
+				</td>
+				<td><label for='is_dev' class='control-label x85'>仅开发者可见:</label>
+					<if condition="$info.is_dev lt 1 ">
+                        <input type="radio" name="is_dev" id="is_dev1" data-toggle="icheck" value="1" data-label="是&nbsp;&nbsp;">
+                        <input type="radio" name="is_dev" id="is_dev2" data-toggle="icheck" value="0" data-rule="checked" data-label="否" checked>
+                   	<else />
+                        <input type="radio" name="is_dev" id="is_dev1" data-toggle="icheck" value="1" data-label="是&nbsp;&nbsp;" checked>
+                        <input type="radio" name="is_dev" id="is_dev2" data-toggle="icheck" value="0" data-rule="checked" data-label="否">
+					</if>
+				</td></tr>
+			<tr>
+				<td colspan="2"><label for='group' class='control-label x85'>分组:</label>
+					<input type='text' id='group' name='group' data-rule='密码:required;' size='65' value="{$info.group}">
+				</td>
+			</tr>
+			<tr><td colspan=2><label for='remark' class='control-label x85'>说明:</label>
+				<textarea name='remark' cols='65' rows='2' > {$info.remark}</textarea></td></tr>
+			<tr><td></td></tr>
+           </tbody>
+          </table>
+        </div>
+        <div class="bjui-footBar">
+            <ul>
+            	&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="btn-default" data-icon="save">保存</button>&nbsp;&nbsp;
+                <button type="button" class="btn-close" data-icon="close">取消</button>
+                
+            </ul>
+        </div>
+    </form>
+</div>

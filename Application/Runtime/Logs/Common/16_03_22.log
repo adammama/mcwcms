@@ -1,0 +1,2466 @@
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/themes/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/themes/blue/core.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/themes/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/bootstrapSelect/bootstrap-select.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/themes/css/FA/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/kindeditor_4.1.10/themes/default/default.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/colorpicker/css/bootstrap-colorpicker.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/niceValidator/jquery.validator.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/uploadify/css/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/js/jquery.cookie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/colorpicker/js/bootstrap-colorpicker.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/js/bjui-all.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/swfupload/swfupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/ztree/jquery.ztree.all-3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/kindeditor_4.1.10/kindeditor-all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/kindeditor_4.1.10/lang/zh_CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/niceValidator/jquery.validator.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/bootstrapSelect/defaults-zh_CN.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/dragsort/jquery.dragsort-0.5.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/niceValidator/jquery.validator.themes.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/icheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/highcharts/highcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/bootstrapSelect/bootstrap-select.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/echarts/echarts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/highcharts/themes/gray.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/uploadify/scripts/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/highcharts/highcharts-3d.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/download/jquery.fileDownload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/other/jquery.autosize.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:12:25+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/themes/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/themes/blue/core.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/themes/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/colorpicker/css/bootstrap-colorpicker.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/kindeditor_4.1.10/themes/default/default.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/niceValidator/jquery.validator.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/bootstrapSelect/bootstrap-select.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/themes/css/FA/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/uploadify/css/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/js/bjui-all.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/kindeditor_4.1.10/lang/zh_CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/swfupload/swfupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/js/jquery.cookie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/kindeditor_4.1.10/kindeditor-all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/niceValidator/jquery.validator.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/ztree/jquery.ztree.all-3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/bootstrapSelect/bootstrap-select.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/niceValidator/jquery.validator.themes.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/bootstrapSelect/defaults-zh_CN.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/highcharts/highcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/icheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/dragsort/jquery.dragsort-0.5.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/colorpicker/js/bootstrap-colorpicker.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/echarts/echarts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/highcharts/highcharts-3d.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/download/jquery.fileDownload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/highcharts/themes/gray.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/uploadify/scripts/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/BJUI/plugins/other/jquery.autosize.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:BJUI
+
+[ 2016-03-22T11:44:31+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/blue/core.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/themes/default/default.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/FA/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/uploadify/css/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/bootstrap-select.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/colorpicker/css/bootstrap-colorpicker.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.11.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery.cookie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/bjui-all.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/swfupload/swfupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/kindeditor-all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/bootstrap-select.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.themes.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/lang/zh_CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/colorpicker/js/bootstrap-colorpicker.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014002s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/ztree/jquery.ztree.all-3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/defaults-zh_CN.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/highcharts-3d.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/icheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/highcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/dragsort/jquery.dragsort-0.5.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.007001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034004s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/echarts/echarts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/themes/gray.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/other/jquery.autosize.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016002s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/uploadify/scripts/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/download/jquery.fileDownload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:28+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/themes/default/default.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/blue/core.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.010001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011002s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/bootstrap-select.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/FA/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/colorpicker/css/bootstrap-colorpicker.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/uploadify/css/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.11.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/kindeditor-all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/bjui-all.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/lang/zh_CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/swfupload/swfupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery.cookie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/colorpicker/js/bootstrap-colorpicker.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/defaults-zh_CN.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.themes.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/ztree/jquery.ztree.all-3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/bootstrap-select.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016002s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/highcharts-3d.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/highcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/dragsort/jquery.dragsort-0.5.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/themes/gray.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/icheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/echarts/echarts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/other/jquery.autosize.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/download/jquery.fileDownload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/uploadify/scripts/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:29+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/blue/core.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/themes/default/default.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/colorpicker/css/bootstrap-colorpicker.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/bootstrap-select.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/FA/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.11.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/swfupload/swfupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/kindeditor-all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/lang/zh_CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/colorpicker/js/bootstrap-colorpicker.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/uploadify/css/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/ztree/jquery.ztree.all-3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery.cookie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.094010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.094010s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.themes.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/bjui-all.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/defaults-zh_CN.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/highcharts-3d.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/highcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/icheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/dragsort/jquery.dragsort-0.5.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/bootstrap-select.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/themes/gray.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/echarts/echarts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/download/jquery.fileDownload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/other/jquery.autosize.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/uploadify/scripts/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:31+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T11:47:32+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/blue/core.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:32+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/colorpicker/css/bootstrap-colorpicker.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/uploadify/css/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/bootstrap-select.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014002s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/FA/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.11.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery.cookie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/bjui-all.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/swfupload/swfupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/kindeditor-all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/lang/zh_CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/colorpicker/js/bootstrap-colorpicker.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.themes.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/ztree/jquery.ztree.all-3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/bootstrap-select.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/icheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/themes/default/default.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/highcharts-3d.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/dragsort/jquery.dragsort-0.5.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/highcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/defaults-zh_CN.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/themes/gray.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/other/jquery.autosize.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/download/jquery.fileDownload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/uploadify/scripts/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/echarts/echarts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:33+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/themes/default/default.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/colorpicker/css/bootstrap-colorpicker.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/bootstrap-select.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/blue/core.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/FA/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/uploadify/css/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/bjui-all.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery.cookie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.11.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/kindeditor-all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/swfupload/swfupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/ztree/jquery.ztree.all-3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/lang/zh_CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.themes.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/defaults-zh_CN.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/colorpicker/js/bootstrap-colorpicker.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025002s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/bootstrap-select.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/highcharts-3d.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/highcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:35+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/themes/gray.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:35+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/dragsort/jquery.dragsort-0.5.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:35+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/uploadify/scripts/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:35+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/icheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:35+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/download/jquery.fileDownload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011002s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:35+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/echarts/echarts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:35+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/other/jquery.autosize.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:35+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/themes/default/default.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/blue/core.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/colorpicker/css/bootstrap-colorpicker.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/bootstrap-select.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/FA/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/bjui-all.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/uploadify/css/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery.cookie.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.11.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/kindeditor-all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/ztree/jquery.ztree.all-3.5.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/lang/zh_CN.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.themes.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/colorpicker/js/bootstrap-colorpicker.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/defaults-zh_CN.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/highcharts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/dragsort/jquery.dragsort-0.5.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/icheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/themes/gray.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/bootstrap-select.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/uploadify/scripts/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/echarts/echarts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/highcharts/highcharts-3d.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023003s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/other/jquery.autosize.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.011002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011002s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/swfupload/swfupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048005s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/download/jquery.fileDownload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:38+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T11:47:49+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:49+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/blue/core.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:49+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:49+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/kindeditor_4.1.10/themes/default/default.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:49+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/colorpicker/css/bootstrap-colorpicker.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:49+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/niceValidator/jquery.validator.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:49+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/bootstrapSelect/bootstrap-select.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:49+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/themes/css/FA/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:47:49+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T11:47:49+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/plugins/uploadify/css/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T11:49:27+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T11:49:28+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T11:49:29+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T11:49:30+08:00 ] 127.0.0.1 /mcwcms/index_layout.html?_=1458618568128
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index_layout
+
+[ 2016-03-22T12:38:43+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T12:38:43+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:38:43+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T12:38:43+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T12:38:45+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:38:45+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T12:38:45+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T12:38:45+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T12:38:45+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018002s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:38:45+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T12:38:45+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T12:39:27+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:39:27+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T12:39:27+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T12:39:27+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:39:27+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T12:39:27+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T12:39:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:39:28+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T12:39:28+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T12:39:28+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:39:28+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T12:39:28+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T12:39:30+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:41:15+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:41:15+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:41:16+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:41:16+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:43:22+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:43:23+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:43:23+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:43:23+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:43:24+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:43:24+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:43:24+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:43:24+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:43:24+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:43:25+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:43:25+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:43:25+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:46:49+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:46:49+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:46:49+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:46:49+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:46:50+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:46:51+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:47:40+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:47:41+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:47:41+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:47:42+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:47:42+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:48:36+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:48:36+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:48:36+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:48:36+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:55:15+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:55:15+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T12:55:16+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:00:21+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:00:21+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T13:00:21+08:00 ] 127.0.0.1 /mcwcms/index_layout.html?_=1458622821429
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index_layout
+
+[ 2016-03-22T13:00:32+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:00:32+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T13:00:32+08:00 ] 127.0.0.1 /mcwcms/index_layout.html?_=1458622832400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index_layout
+
+[ 2016-03-22T13:02:29+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:02:29+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:02:29+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T13:02:31+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:02:31+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:02:31+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T13:02:32+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:02:32+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:02:32+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T13:02:32+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:02:32+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:02:32+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T13:02:32+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:02:32+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:02:32+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T13:02:32+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:02:32+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:02:32+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T13:02:32+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:02:32+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:02:33+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T13:02:33+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:02:33+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:02:33+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T13:02:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:02:34+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:02:34+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T13:02:34+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:02:34+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:02:34+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T13:02:35+08:00 ] 127.0.0.1 /mcwcms/Public/BJUI/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:02:35+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:02:35+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T13:04:19+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:04:19+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T13:04:19+08:00 ] 127.0.0.1 /mcwcms/index_layout.html?_=1458623059768
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index_layout
+
+[ 2016-03-22T13:10:23+08:00 ] 127.0.0.1 /mcwcms/Public/imgages/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:10:25+08:00 ] 127.0.0.1 /mcwcms/Public/imgages/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:26:52+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:26:52+08:00 ] 127.0.0.1 /mcwcms/index_layout.html?_=1458624412590
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index_layout
+
+[ 2016-03-22T13:27:21+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:27:21+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:27:22+08:00 ] 127.0.0.1 /mcwcms/index_layout.html?_=1458624441761
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index_layout
+
+[ 2016-03-22T13:27:53+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:27:53+08:00 ] 127.0.0.1 /mcwcms/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Images
+
+[ 2016-03-22T13:27:54+08:00 ] 127.0.0.1 /mcwcms/index_layout.html?_=1458624473804
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index_layout
+
+[ 2016-03-22T13:28:37+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:28:37+08:00 ] 127.0.0.1 /mcwcms/index_layout.html?_=1458624517647
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index_layout
+
+[ 2016-03-22T13:37:28+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:37:29+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:37:30+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:38:42+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:38:42+08:00 ] 127.0.0.1 /mcwcms/index_layout.html?_=1458625122398
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index_layout
+
+[ 2016-03-22T13:41:18+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:41:18+08:00 ] 127.0.0.1 /mcwcms/index_layout.html?_=1458625278325
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index_layout
+
+[ 2016-03-22T13:41:21+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:41:21+08:00 ] 127.0.0.1 /mcwcms/index_layout.html?_=1458625281506
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index_layout
+
+[ 2016-03-22T13:42:13+08:00 ] 127.0.0.1 /mcwcms/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Doc
+
+[ 2016-03-22T13:42:13+08:00 ] 127.0.0.1 /mcwcms/index_layout.html?_=1458625333149
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index_layout
+
+[ 2016-03-22T13:57:50+08:00 ] 127.0.0.1 /mcwcms/index.php/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:58:42+08:00 ] 127.0.0.1 /mcwcms/index.php/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:58:42+08:00 ] 127.0.0.1 /mcwcms/index.php/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:58:43+08:00 ] 127.0.0.1 /mcwcms/index.php/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-22T13:58:43+08:00 ] 127.0.0.1 /mcwcms/index.php/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
