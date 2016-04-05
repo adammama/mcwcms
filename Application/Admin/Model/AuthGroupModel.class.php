@@ -86,5 +86,73 @@ class AuthGroupModel extends CommonModel
         return M(self::AUTH_GROUP_ACCESS)->where( array( 'uid'=>$uid,'group_id'=>$gid) )->delete();
     }
 
+    public function addToGroup($uid,$gid){
+        $uid = is_array($uid)?implode(',',$uid):trim($uid,',');
+        $gid = is_array($gid)?$gid:explode( ',',trim($gid,',') );
+        $Access = M(self::AUTH_GROUP_ACCESS);
+        $uid_arr = explode(',',$uid);
+        $add = array();
+        foreach ($uid_arr as $u){
+            //判断用户id是否合法
+            if(M('User')->getFieldById($u,'id') == false){
+                $this->error = "编号为{$u}的用户不存在！";
+                return false;
+            }
+            foreach ($gid as $g){
+                if( is_numeric($u) && is_numeric($g) ){
+                    $add[] = array('group_id'=>$g,'uid'=>$u);
+                }
+            }
+        }
+        $Access->addAll($add);
+
+        if ($Access->getDbError()) {
+            if( count($uid_arr)==1 && count($gid)==1 ){
+                //单个添加时定制错误提示
+                $this->error = "不能重复添加";
+            }
+            return false;
+        }else{
+            return true;
+        }
+    }
+    public function checkId($modelname,$mid,$msg = '以下id不存在:'){
+        if(is_array($mid)){
+            $count = count($mid);
+            $ids   = implode(',',$mid);
+        }else{
+            $mid   = explode(',',$mid);
+            $count = count($mid);
+            $ids   = $mid;
+        }
+
+        $s = M($modelname)->where(array('id'=>array('IN',$ids)))->getField('id',true);
+        if(count($s)===$count){
+            return true;
+        }else{
+            $diff = implode(',',array_diff($mid,$s));
+            $this->error = $msg.$diff;
+            return false;
+        }
+    }
+
+    /**
+     * 检查用户组是否全部存在
+     * @param array|string $gid  用户组id列表
+     * @author 朱亚杰 <zhuyajie@topthink.net>
+     */
+    public function checkGroupId($gid){
+        return $this->checkId('AuthGroup',$gid, '以下用户组id不存在:');
+    }
+
+    /**
+     * 检查分类是否全部存在
+     * @param array|string $cid  栏目分类id列表
+     * @author 朱亚杰 <zhuyajie@topthink.net>
+     */
+    public function checkCategoryId($cid){
+        return $this->checkId('Category',$cid, '以下分类id不存在:');
+    }
+
 
 }

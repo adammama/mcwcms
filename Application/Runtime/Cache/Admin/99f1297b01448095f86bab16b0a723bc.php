@@ -24,15 +24,7 @@
 			        </select>
 				</td>
 			</tr>
-			<tr>
-				<td><label for='group_input' class='control-label x85'>所属角色:</label>
-					<select name="group_id" data-toggle="selectpicker">
-						<?php if(is_array($role)): foreach($role as $key=>$v): if($v['id'] == $dataone['group_id']): ?><option value="<?php echo ($v["id"]); ?>" selected><?php echo ($v["title"]); ?></option>
-			            	<?php else: ?>
-			            		<option value="<?php echo ($v["id"]); ?>"><?php echo ($v["title"]); ?></option><?php endif; endforeach; endif; ?>
-			      	</select>
-				</td>
-			</tr>
+
 			<tr><td colspan=2><label for='remark' class='control-label x85'>备注:</label>
 				<textarea name='remark' cols='65' rows='5' ><?php echo ($dataone["remark"]); ?></textarea></td></tr>
 			<tr><td></td></tr>

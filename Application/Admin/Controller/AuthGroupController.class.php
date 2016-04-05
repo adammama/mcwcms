@@ -152,6 +152,33 @@ class AuthGroupController extends CommonController
         }
     }
 
+    public function addToGroup(){
+        $uid = I('uid');
+        $gid = I('group_id');
+        if( empty($uid) ){
+            //$this->error('参数有误');
+            $this->ajaxReturn(jsonArray(300,'参数有误!',CONTROLLER_NAME,true));
+        }
+        $AuthGroup = D('AuthGroup');
+        if(is_numeric($uid)){
+            if( !M('User')->where(array('uid'=>$uid))->find() ){
+                //$this->error('用户不存在');
+                $this->ajaxReturn(jsonArray(300,'用户不存在!',CONTROLLER_NAME,true));
+            }
+        }
+
+        if( $gid && !$AuthGroup->checkGroupId($gid)){
+            //$this->error($AuthGroup->error);
+            $this->ajaxReturn(jsonArray(300,$AuthGroup->error,CONTROLLER_NAME,true));
+        }
+        if ( $AuthGroup->addToGroup($uid,$gid) ){
+            $this->ajaxReturn(jsonArray(200,'操作成功!',CONTROLLER_NAME,false));
+        }else{
+            //$this->error($AuthGroup->getError());
+            $this->ajaxReturn(jsonArray(300,$AuthGroup->error,CONTROLLER_NAME,false));
+        }
+    }
+
     public function groupmember(){
         $id=I('get.id',0,'intval');
         if($id>0){

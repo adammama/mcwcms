@@ -45,14 +45,24 @@ class UserModel extends CommonModel
     }
 
     public function add($data) {
+        return $this->insert($param = array('modelName' => $this->model,'returnUrl' => CONTROLLER_NAME), $data);
+    }
+    public function edit($data,$condition) {
+        return $this->update($param = array('modelName' => $this->model,'returnUrl' => CONTROLLER_NAME), $data, $condition);
+    }
+/*    public function add($data) {
         return $this->lastinsertid($param = array('modelName' => $this->model), $data);
     }
-    public function addtogroup($data) {
-        return $this->insert($param = array('modelName' => 'AuthGroupAccess','returnUrl' => CONTROLLER_NAME), $data);
+    public function edit($data,$condition) {
+        return $this->rupdate($param = array('modelName' => $this->model), $data, $condition);
     }
-
     public function getgrouplist(){
         return $this->getList($param = array('modelName' => 'AuthGroup','field' => 'id,title','limit' => ''));
+    }
+
+*/
+    public function addtogroup($data) {
+        return $this->insert($param = array('modelName' => 'AuthGroupAccess','returnUrl' => CONTROLLER_NAME), $data);
     }
 
     public function remove($condition) {
@@ -61,10 +71,6 @@ class UserModel extends CommonModel
 
     public function removefromgroup($condition) {
         return $this->del($param = array('modelName' => 'AuthGroupAccess'), $condition);
-    }
-
-    public function edit($data,$condition) {
-        return $this->rupdate($param = array('modelName' => $this->model), $data, $condition);
     }
     public function editgroup($data,$condition) {
         return $this->rupdate($param = array('modelName' => 'AuthGroupAccess'), $data, $condition);

@@ -24,6 +24,73 @@ class UserController extends CommonController
         if (IS_POST) {
             $data = $this->model->create();
             if($data){
+                $this->ajaxReturn($this->model->add($data));
+            } else{
+                $this->ajaxReturn(array('statusCode' => 300, 'message' => $this->model->getError()));
+            }
+        } else {
+            $this->display();
+        }
+    }
+    public function edit()
+    {
+        if(IS_POST) {
+            $data = $this->model->create();
+            if($data){
+                $uid = I('id',0,'intval');
+                $condition=array('id'=>$uid);
+                $this->ajaxReturn($this->model->edit($data,$condition));
+            }else{
+                $this->ajaxReturn(array('statusCode' => 300, 'message' => $this->model->getError()));
+            }
+        } else {
+            $id=I('get.id',0,'intval');
+            if($id>0){
+                $dataone = M('User')->where(array('id'=>$id))->find();
+                $this->dataone=$dataone;
+                $this->display();
+            }else{
+                $this->ajaxReturn(jsonArray(300,C('ALERT_MSG.EXECUTE_FAILED'),CONTROLLER_NAME,true));
+            }
+        }
+    }
+
+    public function del()
+    {
+        $id=I('get.id', 0, 'intval');
+        if($id>0){
+            $condition['id']=$id;
+            if($this->model->remove($condition)){
+                $gcondition['uid']=$id;
+                $this->ajaxReturn($this->model->removefromgroup($gcondition));
+            } else {
+                $this->ajaxReturn(jsonArray(300,C('ALERT_MSG.DELETE_FAILED'),CONTROLLER_NAME,false));
+            }
+        } else {
+            $this->ajaxReturn(jsonArray(300,C('ALERT_MSG.DELETE_FAILED'),CONTROLLER_NAME,false));
+        }
+
+    }
+
+    public function delselect()
+    {
+        $ids=I('ids','','trim');
+        if(!empty($ids)){
+            $condition['id']=array('in',$ids);
+            if($this->model->remove($condition)){
+                $gcondition['uid']=array('in',$ids);
+                $this->ajaxReturn($this->model->removefromgroup($gcondition));
+            }else{
+                $this->ajaxReturn(jsonArray(300,C('ALERT_MSG.DELETE_FAILED'),CONTROLLER_NAME,false));
+            }
+        } else {
+            $this->ajaxReturn(jsonArray(300,C('ALERT_MSG.SELECT_DATA'),CONTROLLER_NAME,false));
+        }
+    }
+/*    public function add() {
+        if (IS_POST) {
+            $data = $this->model->create();
+            if($data){
                 if($lastinsertid=$this->model->add($data)){
                     $role=array(
                         'group_id'=>I('group_id',0,'intval'),
@@ -76,38 +143,7 @@ class UserController extends CommonController
                 $this->ajaxReturn(jsonArray(300,C('ALERT_MSG.EXECUTE_FAILED'),CONTROLLER_NAME,true));
             }
         }
-    }
+    }*/
 
-    public function del()
-    {
-        $id=I('get.id', 0, 'intval');
-        if($id>0){
-            $condition['id']=$id;
-            if($this->model->remove($condition)){
-                $gcondition['uid']=$id;
-                $this->ajaxReturn($this->model->removefromgroup($gcondition));
-            } else {
-                $this->ajaxReturn(jsonArray(300,C('ALERT_MSG.DELETE_FAILED'),CONTROLLER_NAME,false));
-            }
-        } else {
-            $this->ajaxReturn(jsonArray(300,C('ALERT_MSG.DELETE_FAILED'),CONTROLLER_NAME,false));
-        }
 
-    }
-
-    public function delselect()
-    {
-        $ids=I('ids','','trim');
-        if(!empty($ids)){
-            $condition['id']=array('in',$ids);
-            if($this->model->remove($condition)){
-                $gcondition['uid']=array('in',$ids);
-                $this->ajaxReturn($this->model->removefromgroup($gcondition));
-            }else{
-                $this->ajaxReturn(jsonArray(300,C('ALERT_MSG.DELETE_FAILED'),CONTROLLER_NAME,false));
-            }
-        } else {
-            $this->ajaxReturn(jsonArray(300,C('ALERT_MSG.SELECT_DATA'),CONTROLLER_NAME,false));
-        }
-    }
 }

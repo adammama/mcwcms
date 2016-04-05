@@ -26,14 +26,7 @@
 			        </select>
 				</td>
 			</tr>
-			<tr>
-				<td><label for='group_id' class='control-label x85'>所属角色:</label>
-					<select name="group_id" data-toggle="selectpicker">
-			            <option value="">--请选择--</option>
-			            <?php if(is_array($group)): foreach($group as $key=>$v): ?><option value="<?php echo ($v["id"]); ?>"><?php echo ($v["title"]); ?></option><?php endforeach; endif; ?>
-			        </select>
-				</td>
-			</tr>
+
 			<tr><td colspan=2><label for='remark' class='control-label x85'>备注:</label>
 				<textarea name='remark' cols='65' rows='5' ></textarea></td></tr>
 			<tr><td></td></tr>

@@ -26,19 +26,7 @@
 			        </select>
 				</td>
 			</tr>
-			<tr>
-				<td><label for='group_input' class='control-label x85'>所属角色:</label>
-					<select name="group_id" data-toggle="selectpicker">
-						<foreach name='role' item='v'>
-							<if condition="$v['id'] eq $dataone['group_id']" >
-			            		<option value="{$v.id}" selected>{$v.title}</option>
-			            	<else />
-			            		<option value="{$v.id}">{$v.title}</option>
-			            	</if>
-					    </foreach>
-			      	</select>
-				</td>
-			</tr>
+
 			<tr><td colspan=2><label for='remark' class='control-label x85'>备注:</label>
 				<textarea name='remark' cols='65' rows='5' >{$dataone.remark}</textarea></td></tr>
 			<tr><td></td></tr>
