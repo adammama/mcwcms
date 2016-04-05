@@ -10,6 +10,8 @@ class UserController extends CommonController
         $this->model = D('User');
     }
 
+    public function mcwhome(){}
+
     public function index() {
         $list = $this->model->index($this->searchCondition($this->model->searchFields));
         //p($this->searchKeywords());
