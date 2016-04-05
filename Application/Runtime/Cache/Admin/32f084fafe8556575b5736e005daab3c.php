@@ -28,7 +28,7 @@
 			</tr>
 			<tr>
 				<td><label for='group_id' class='control-label x85'>所属角色:</label>
-					<select name="group_id" data-toggle="selectpicker" data-rule='所属角色:required;'>
+					<select name="group_id" data-toggle="selectpicker">
 			            <option value="">--请选择--</option>
 			            <?php if(is_array($group)): foreach($group as $key=>$v): ?><option value="<?php echo ($v["id"]); ?>"><?php echo ($v["title"]); ?></option><?php endforeach; endif; ?>
 			        </select>

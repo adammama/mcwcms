@@ -9,7 +9,7 @@
 namespace Admin\Controller;
 use Common\Controller\CommonController;
 use Think\Controller;
-
+use Admin\Model\AuthGroupModel;
 class AuthGroupController extends CommonController
 {
     public function _initialize() {
@@ -106,6 +106,109 @@ class AuthGroupController extends CommonController
         }
     }
 
+    public function access(){
+        $this->updateRules();
+        $auth_group = M('AuthGroup')->where( array('status'=>array('egt','0'),'module'=>'admin','type'=>AuthGroupModel::TYPE_ADMIN) )
+            ->getfield('id,title,rules');
+        $node_list   = $this->returnNodes();
+        $map         = array('module'=>'admin','type'=>AuthGroupModel::RULE_MAIN,'status'=>1);
+        $main_rules  = M('AuthRule')->where($map)->getField('name,id');
+        $map         = array('module'=>'admin','type'=>AuthGroupModel::RULE_URL,'status'=>1);
+        $child_rules = M('AuthRule')->where($map)->getField('name,id');
+        $this->assign('main_rules', $main_rules);
+        $this->assign('auth_rules', $child_rules);
+        $this->assign('node_list',  $node_list);
+        $this->assign('auth_group', $auth_group);
+        $this->assign('this_group', $auth_group[(int)$_GET['group_id']]);
+        $this->meta_title = '访问授权';
+        $this->display('managergroup');
+    }
+
+    public function writeGroup(){
+        if(isset($_POST['rules'])){
+            sort($_POST['rules']);
+            $_POST['rules']  = implode( ',' , array_unique($_POST['rules']));
+        }else{
+            $_POST['rules'] =  '';
+        }
+        $_POST['module'] =  'admin';
+        $_POST['type']   =  AuthGroupModel::TYPE_ADMIN;
+        $AuthGroup       =  D('AuthGroup');
+        $data = $AuthGroup->create();
+        //dump($data);die;
+        if ( $data ) {
+            if ( empty($data['id']) ) {
+                $r = $AuthGroup->add();
+            }else{
+                $r = $AuthGroup->save();
+            }
+            if($r===false){
+                $this->ajaxReturn(jsonArray(300,'操作失败!',CONTROLLER_NAME,true));
+            } else{
+                $this->ajaxReturn(jsonArray(200,'操作成功!',CONTROLLER_NAME,true));
+            }
+        }else{
+            $this->ajaxReturn(jsonArray(300,'操作失败!',CONTROLLER_NAME,true));
+        }
+    }
+
+    public function groupmember(){
+        $id=I('get.id',0,'intval');
+        if($id>0){
+            $this->groupmember=AuthGroupModel::memberInGroup($id);
+        }
+        $this->display();
+    }
+
+    public function groupmemberlookup(){
+        $groupid=I('get.groupid',0,'intval');
+        if($groupid>0){
+            $uids=AuthGroupModel::memberInGroup($groupid);
+        }
+        $ontInIds=array();
+        foreach ($uids as $val){
+            array_push($ontInIds,$val['id']);
+        }
+
+        $model = D('User');
+        $map = $this->_search('User');
+        if(!empty($ontInIds)){
+            $map['id']  = array('not in',$ontInIds);
+        }
+//			pp($ontInIds);
+//			pp($map);die;
+        if (!empty($model)) {
+            $this->_rtlist($model, $map);
+        }
+        $this->display();
+    }
+
+
+    public function removeFromGroup(){
+        $uid = I('get.uid');
+        $gid = I('get.group_id');
+        if( $uid==UID ){
+            //$this->error('不允许解除自身授权');
+            $this->ajaxReturn(jsonArray(300,'不允许解除自身授权!',CONTROLLER_NAME,true));
+        }
+        if( empty($uid) || empty($gid) ){
+            //$this->error('参数有误');
+            $this->ajaxReturn(jsonArray(300,'参数有误!',CONTROLLER_NAME,true));
+        }
+        $AuthGroup = D('AuthGroup');
+        if( !$AuthGroup->find($gid)){
+            //$this->error('用户组不存在');
+            $this->ajaxReturn(jsonArray(300,'用户组不存在!',CONTROLLER_NAME,true));
+        }
+        if ( $AuthGroup->delFromGroup($uid,$gid) ){
+            //$this->success('操作成功');
+            $this->ajaxReturn(jsonArray(200,'操作成功!',CONTROLLER_NAME,false));
+        }else{
+            //$this->error('操作失败');
+            $this->ajaxReturn(jsonArray(300,'操作失败!',CONTROLLER_NAME,true));
+        }
+    }
+
     public function updateRules(){
         //需要新增的节点必然位于$nodes 从表Menu中取出
         $nodes    = $this->returnNodes(false);
@@ -122,9 +225,9 @@ class AuthGroupController extends CommonController
             $temp['title']  = $value['title'];
             $temp['module'] = 'admin';
             if($value['pid'] >0){
-                $temp['type'] = AuthRuleModel::RULE_URL;
+                $temp['type'] = AuthGroupModel::RULE_URL;
             }else{
-                $temp['type'] = AuthRuleModel::RULE_MAIN;
+                $temp['type'] = AuthGroupModel::RULE_MAIN;
             }
             $temp['status']   = 1;
             $data[strtolower($temp['name'].$temp['module'].$temp['type'])] = $temp;//去除重复项

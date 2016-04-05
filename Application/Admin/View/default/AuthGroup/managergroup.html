@@ -1,0 +1,80 @@
+<div class="bjui-pageContent">
+    <form action="{:U('writeGroup')}" class="pageForm" data-toggle="validate">
+        <div class="pageFormContent" data-layout-h="0">
+          <table class="table table-condensed table-hover" width="100%">
+           <tbody>
+           <volist name="node_list" id="node" >
+				<tr style="background-color: #ebebeb;">
+					<td><label><input obj="node_{$node.id}" class="auth_rules rules_all" type="checkbox" name="rules[]" value="<?php echo $main_rules[$node['url']] ?>"> {$node.title}管理</label></td>
+				</tr>
+				<present name="node['child']">
+				<volist name="node['child']" id="child" >			
+					<tr>
+						<td style="padding-left: 50px;">
+							<label <notempty name="child['tip']">title='{$child.tip}'</notempty>>
+							<input obj="node_{$node.id}_{$child.id}" class="auth_rules rules_row" type="checkbox" name="rules[]" value="<?php echo $auth_rules[$child['url']] ?>"/> {$child.title}</label>
+						</td>
+					</tr>
+                    <notempty name="child['operator']">
+                    	<tr>
+                    		<td style="padding-left: 100px;">
+	                           <volist name="child['operator']" id="op">
+	                               <label style=" float: left; padding-right: 20px;" <notempty name="op['tip']">title='{$op.tip}'</notempty>>
+	                                   <input obj="node_{$node.id}_{$child.id}_{$op.id}" class="auth_rules rules_item" type="checkbox" name="rules[]"
+	                                   value="<?php echo $auth_rules[$op['url']] ?>"/> {$op.title}
+	                               </label>
+	                           </volist>
+                           </td>
+                        </tr>       
+                    </notempty>
+				</volist>
+				</present>				
+			</volist>
+			<tr><td></td></tr>
+           </tbody>
+          </table>
+        </div>
+        <input type="hidden" name="id" value="{$this_group.id}" />
+    </form>
+</div>
+<div class="bjui-pageFooter">
+    <ul>
+        <li><button type="button" class="btn-close">关闭</button></li>
+        <li><button type="submit" class="btn-default">保存</button></li>
+    </ul>
+</div>
+<script type="text/javascript" charset="utf-8">
+    +function($){
+        var rules = [{$this_group.rules}];
+        $('.auth_rules').each(function(){
+            if( $.inArray( parseInt(this.value,10),rules )>-1 ){
+                $(this).prop('checked',true);
+            }
+        });
+
+        //全选节点
+        $('.rules_all').on('change',function(){
+        	//console.info('abc');
+            var obj=$(this).attr("obj")+"_";
+            $("input[obj^='"+obj+"']").prop("checked",$(this).prop("checked"));
+        });
+        $('.rules_row').on('change',function(){
+            var obj=$(this).attr("obj")+"_";
+            $("input[obj^='"+obj+"']").prop("checked",$(this).prop("checked"));
+            var tem=obj.split("_");
+            //将当前模块父级选中
+            if($(this).prop('checked')){
+                $("input[obj='node_"+tem[1]+"']").prop("checked","checked");
+            }
+        });
+        $('.rules_item').on('change',function(){
+            var tem=$(this).attr("obj").split("_");
+            if($(this).prop('checked')){
+                //所属项目
+                $("input[obj='node_"+tem[1]+"']").prop("checked","checked");
+                //所属模块
+                $("input[obj='node_"+tem[1]+"_"+tem[2]+"']").prop("checked","checked");
+            }
+        });
+    }(jQuery);
+</script>

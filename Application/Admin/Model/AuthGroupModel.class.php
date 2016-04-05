@@ -12,6 +12,13 @@ use Common\Model\CommonModel;
 
 class AuthGroupModel extends CommonModel
 {
+    const RULE_URL = 1;
+    const RULE_MAIN = 2;
+    const TYPE_ADMIN = 1;
+    const MEMBER                    = 'user';
+    const AUTH_GROUP_ACCESS         = 'auth_group_access'; // 关系表表名
+    const AUTH_GROUP                = 'auth_group';        // 用户组表名
+
     public $model = 'AuthGroup';
     public $tableFields = array(
         'id' => array('name'=>'ID', 'order'=>'1'),
@@ -62,5 +69,22 @@ class AuthGroupModel extends CommonModel
     public function detail($condition){
         return $this->getDetail($param = array('modelName' => $this->model), $condition);
     }
+
+    static public function memberInGroup($group_id){
+        $prefix   = C('DB_PREFIX');
+        $l_table  = $prefix.self::MEMBER;
+        $r_table  = $prefix.self::AUTH_GROUP_ACCESS;
+        $list     = M() ->field('m.id,m.username,m.last_login_time,m.last_login_ip,m.status')
+            ->table($l_table.' m')
+            ->join($r_table.' a ON m.id=a.uid')
+            ->where(array('a.group_id'=>$group_id))
+            ->where('m.status>-1')
+            ->select();
+        return $list;
+    }
+    public function delFromGroup($uid,$gid){
+        return M(self::AUTH_GROUP_ACCESS)->where( array( 'uid'=>$uid,'group_id'=>$gid) )->delete();
+    }
+
 
 }
