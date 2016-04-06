@@ -5897,3 +5897,1775 @@ SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER J
 SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0050s ]
 SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','385','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
 
+[ 2016-04-06T11:26:12+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Menu/index?_=1459912596009
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0080s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','385','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2016-04-06T11:26:24+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:26:24+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-06T11:26:24+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:26:32+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mc_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mc_user` SET `last_login_ip`='127.0.0.1',`last_login_time`='1459913192' WHERE `id` = 1 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:26:33+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:26:33+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Index/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:doc
+
+[ 2016-04-06T11:26:35+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459913193480
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:26:37+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/15?_=1459913193481
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0060s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 15 AND ( m.status>-1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T11:26:40+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/1?_=1459913193482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0090s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 1 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:26:43+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/access/group_id/14?_=1459913193483
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0070s ]
+SQL: SELECT `title`,`url`,`remark`,`pid` FROM `mc_menu` ORDER BY sort asc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` IN ('1','2') ORDER BY name  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`rules` FROM `mc_auth_group` WHERE `status` >= '0' AND `type` = 1  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`remark`,`hide` FROM `mc_menu` ORDER BY sort asc  [ RunTime:0.0020s ]
+SQL: SELECT `name`,`id` FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` = 2 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` = 1 AND `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: Admin/user/index D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\9808ba7716ccaba0371b5485dec5ea79.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-06T11:27:02+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Menu/index?_=1459913193484
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mc_menu` ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 4 行.
+NOTIC: [8] Undefined variable: currentPage D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 5 行.
+NOTIC: [8] Undefined index: keys D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 9 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:27:09+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Menu/edit/id/144?_=1459913193485
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: field D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 192 行.
+SQL: SELECT * FROM `mc_menu` WHERE `id` = 144 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mc_menu` ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:27:13+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Menu/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 290 行.
+SQL: UPDATE `mc_menu` SET `id`='144',`pid`='133',`sort`='1',`title`='用户列表',`status`='1',`url`='User/index',`open`='1',`hide`='0',`is_dev`='0',`group`='1',`remark`='  ' WHERE `id` = 144 [ RunTime:0.0030s ]
+
+[ 2016-04-06T11:27:13+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Menu/index?_=1459913193486
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `mc_menu` ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 4 行.
+NOTIC: [8] Undefined variable: currentPage D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 5 行.
+NOTIC: [8] Undefined index: keys D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 9 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:27:20+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:27:20+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:27:20+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-06T11:27:27+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mc_user` WHERE `username` = 'test' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `mc_user` SET `last_login_ip`='127.0.0.1',`last_login_time`='1459913247' WHERE `id` = 30 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:27:28+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','385','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-06T11:27:28+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Index/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','385','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2016-04-06T11:27:30+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459913248265
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0080s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','385','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:27:32+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Menu/index?_=1459913248266
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0080s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0090s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','385','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2016-04-06T11:27:37+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459913248267
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0070s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','385','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:27:52+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/del/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','385','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2016-04-06T11:27:54+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/edit/id/30?_=1459913248268
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','385','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2016-04-06T11:27:57+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/edit/id/1?_=1459913248269
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0080s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','385','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2016-04-06T11:28:03+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/add?_=1459913248270
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0110s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','385','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0020s ]
+
+[ 2016-04-06T11:28:14+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Menu/index?_=1459913248271
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','385','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2016-04-06T11:28:27+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:28:27+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:28:27+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:28:32+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mc_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `mc_user` SET `last_login_ip`='127.0.0.1',`last_login_time`='1459913312' WHERE `id` = 1 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:28:33+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-06T11:28:33+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Index/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:doc
+
+[ 2016-04-06T11:28:35+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459913313392
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0460s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:28:41+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Menu/index?_=1459913313393
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mc_menu` ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 4 行.
+NOTIC: [8] Undefined variable: currentPage D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 5 行.
+NOTIC: [8] Undefined index: keys D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 9 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-06T11:30:59+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Menu/edit/id/132?_=1459913313394
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: field D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 192 行.
+SQL: SELECT * FROM `mc_menu` WHERE `id` = 132 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mc_menu` ORDER BY sort  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:31:04+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Menu/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 290 行.
+SQL: UPDATE `mc_menu` SET `id`='132',`pid`='0',`sort`='4',`title`='系统管理',`status`='1',`url`='Index/index',`open`='1',`hide`='0',`is_dev`='0',`group`='1',`remark`='    ' WHERE `id` = 132 [ RunTime:0.0010s ]
+
+[ 2016-04-06T11:31:05+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Menu/index?_=1459913313395
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\MenuModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mc_menu` ORDER BY sort  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 4 行.
+NOTIC: [8] Undefined variable: currentPage D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 5 行.
+NOTIC: [8] Undefined index: keys D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 9 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\bb7a8e934c375c95b37008bd83307ace.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:31:23+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459913313396
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:31:24+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/access/group_id/15?_=1459913313397
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0100s ]
+SQL: SELECT `title`,`url`,`remark`,`pid` FROM `mc_menu` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` IN ('1','2') ORDER BY name  [ RunTime:0.0050s ]
+SQL: UPDATE `mc_auth_rule` SET `name`='Admin/Index/index',`title`='系统管理',`module`='admin',`type`='2',`status`='1',`id`='384' WHERE `id` = 384 [ RunTime:0.0020s ]
+SQL: UPDATE `mc_auth_rule` SET `status`='-1' WHERE `id` IN ('385') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0150s ]
+SQL: SELECT `id`,`title`,`rules` FROM `mc_auth_group` WHERE `status` >= '0' AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`remark`,`hide` FROM `mc_menu` ORDER BY sort asc  [ RunTime:0.0030s ]
+SQL: SELECT `name`,`id` FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` = 2 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` = 1 AND `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:31:29+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/access/group_id/14?_=1459913313398
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url`,`remark`,`pid` FROM `mc_menu` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` IN ('1','2') ORDER BY name  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`rules` FROM `mc_auth_group` WHERE `status` >= '0' AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`remark`,`hide` FROM `mc_menu` ORDER BY sort asc  [ RunTime:0.0020s ]
+SQL: SELECT `name`,`id` FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` = 2 AND `status` = 1  [ RunTime:0.0030s ]
+SQL: SELECT `name`,`id` FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` = 1 AND `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-06T11:31:34+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/writeGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `mc_auth_group` SET `rules`='381,384,388,398',`type`='1' WHERE `id` = 14 [ RunTime:0.0010s ]
+
+[ 2016-04-06T11:31:34+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459913313399
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:31:37+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/access/group_id/14?_=1459913313400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0080s ]
+SQL: SELECT `title`,`url`,`remark`,`pid` FROM `mc_menu` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` IN ('1','2') ORDER BY name  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`rules` FROM `mc_auth_group` WHERE `status` >= '0' AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`remark`,`hide` FROM `mc_menu` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` = 2 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:31:41+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-06T11:31:41+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:31:41+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:31:53+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mc_user` WHERE `username` = 'test' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `mc_user` SET `last_login_ip`='127.0.0.1',`last_login_time`='1459913513' WHERE `id` = 30 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:31:54+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:31:54+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Index/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2016-04-06T11:31:56+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Menu/index?_=1459913514649
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0080s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0080s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2016-04-06T11:31:58+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459913514650
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0070s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2016-04-06T11:32:01+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459913514651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:32:03+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459913514652
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0080s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2016-04-06T11:32:09+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/access/group_id/14?_=1459913514653
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0060s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0090s ]
+SQL: SELECT `title`,`url`,`remark`,`pid` FROM `mc_menu` ORDER BY sort asc  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` IN ('1','2') ORDER BY name  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`title`,`rules` FROM `mc_auth_group` WHERE `status` >= '0' AND `type` = 1  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`remark`,`hide` FROM `mc_menu` ORDER BY sort asc  [ RunTime:0.0020s ]
+SQL: SELECT `name`,`id` FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` = 2 AND `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` = 1 AND `status` = 1  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-06T11:32:14+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/writeGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0060s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2016-04-06T11:32:22+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/access/group_id/14?_=1459913514654
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0060s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0100s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0040s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `mc_menu` [ RunTime:0.0060s ]
+SQL: SELECT `title`,`url`,`remark`,`pid` FROM `mc_menu` ORDER BY sort asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` IN ('1','2') ORDER BY name  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`title`,`rules` FROM `mc_auth_group` WHERE `status` >= '0' AND `type` = 1  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`remark`,`hide` FROM `mc_menu` ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` = 2 AND `status` = 1  [ RunTime:0.0020s ]
+SQL: SELECT `name`,`id` FROM `mc_auth_rule` WHERE `module` = 'admin' AND `type` = 1 AND `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:32:46+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:32:47+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0060s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:32:50+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T11:32:52+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE (  `id` LIKE '%1%' OR `title` LIKE '%1%' OR `status` LIKE '%1%' ) AND `status` > -1 LIMIT 1   [ RunTime:0.0280s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE (  `id` LIKE '%1%' OR `title` LIKE '%1%' OR `status` LIKE '%1%' ) AND `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:32:56+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0060s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE (  `id` LIKE '%5%' OR `title` LIKE '%5%' OR `status` LIKE '%5%' ) AND `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE (  `id` LIKE '%5%' OR `title` LIKE '%5%' OR `status` LIKE '%5%' ) AND `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T11:33:00+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE (  `id` LIKE '%test%' OR `title` LIKE '%test%' OR `status` LIKE '%test%' ) AND `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE (  `id` LIKE '%test%' OR `title` LIKE '%test%' OR `status` LIKE '%test%' ) AND `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:33:05+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE (  `id` LIKE '%123%' OR `title` LIKE '%123%' OR `status` LIKE '%123%' ) AND `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE (  `id` LIKE '%123%' OR `title` LIKE '%123%' OR `status` LIKE '%123%' ) AND `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:33:07+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:33:11+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459913514655
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0070s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0050s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0050s ]
+
+[ 2016-04-06T11:33:15+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:33:15+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T11:33:15+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:33:53+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:33:53+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:33:54+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-06T11:33:54+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:33:54+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-06T11:33:54+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T11:34:07+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mc_user` WHERE `username` = 'test' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `mc_user` SET `last_login_ip`='127.0.0.1',`last_login_time`='1459913647' WHERE `id` = 30 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-06T11:34:08+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0030s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T11:34:08+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Index/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM mc_auth_group_access a INNER JOIN mc_auth_group g on a.group_id=g.id  WHERE ( a.uid='30' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_rule` [ RunTime:0.0040s ]
+SQL: SELECT `condition`,`name` FROM `mc_auth_rule` WHERE `id` IN ('381','384','388','398') AND `type` IN ('1','2') AND `status` = 1  [ RunTime:0.0010s ]
+
+[ 2016-04-06T11:34:12+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T11:34:12+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-06T11:34:12+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
