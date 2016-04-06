@@ -50,21 +50,13 @@ class UserModel extends CommonModel
     public function edit($data,$condition) {
         return $this->update($param = array('modelName' => $this->model,'returnUrl' => CONTROLLER_NAME), $data, $condition);
     }
-/*    public function add($data) {
-        return $this->lastinsertid($param = array('modelName' => $this->model), $data);
-    }
-    public function edit($data,$condition) {
-        return $this->rupdate($param = array('modelName' => $this->model), $data, $condition);
-    }
-    public function getgrouplist(){
-        return $this->getList($param = array('modelName' => 'AuthGroup','field' => 'id,title','limit' => ''));
-    }
 
-*/
     public function addtogroup($data) {
         return $this->insert($param = array('modelName' => 'AuthGroupAccess','returnUrl' => CONTROLLER_NAME), $data);
     }
-
+    public function checkID($condition){
+        return $this->exists($param = array('modelName' => 'AuthGroupAccess'), $condition);
+    }
     public function remove($condition) {
         return $this->rdel($param = array('modelName' => $this->model), $condition);
     }
@@ -75,4 +67,15 @@ class UserModel extends CommonModel
     public function editgroup($data,$condition) {
         return $this->rupdate($param = array('modelName' => 'AuthGroupAccess'), $data, $condition);
     }
+    /*    public function add($data) {
+            return $this->lastinsertid($param = array('modelName' => $this->model), $data);
+        }
+        public function edit($data,$condition) {
+            return $this->rupdate($param = array('modelName' => $this->model), $data, $condition);
+        }
+        public function getgrouplist(){
+            return $this->getList($param = array('modelName' => 'AuthGroup','field' => 'id,title','limit' => ''));
+        }
+
+    */
 }

@@ -1,0 +1,2687 @@
+[ 2016-04-06T09:08:35+08:00 ] 127.0.0.1 /mcwcms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:08:35+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-06T09:08:41+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Public/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `mc_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `mc_user` SET `last_login_ip`='127.0.0.1',`last_login_time`='1459904921' WHERE `id` = 1 [ RunTime:0.0150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:08:42+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-06T09:08:42+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Index/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:doc
+
+[ 2016-04-06T09:08:44+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459904922682
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0790s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:08:45+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459904922683
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:08:52+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/del/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 351 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: DELETE FROM `mc_user` WHERE `id` = 21 [ RunTime:0.0320s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 362 行.
+SQL: SELECT * FROM `mc_user` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 332 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0210s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `mc_auth_group_access` WHERE `uid` = 21 [ RunTime:0.0010s ]
+
+[ 2016-04-06T09:08:53+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459904922684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:08:53+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459904922685
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:08:58+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/add?_=1459904922686
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:09:12+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `mc_user` WHERE `username` = 'test1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 246 行.
+SQL: INSERT INTO `mc_user` (`username`,`password`,`status`,`remark`,`last_login_time`) VALUES ('test1','c4ca4238a0b923820dcc509a6f75849b','1','','1459904952') [ RunTime:0.0300s ]
+
+[ 2016-04-06T09:09:12+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459904922687
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:09:16+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/1?_=1459904922688
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0060s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 1 AND ( m.status>-1 )  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:09:19+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459904922689
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:09:27+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459904922690
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:09:28+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmemberlookup/groupid/14?_=1459904922691
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: limit D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY `id` asc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: keys D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\4dfabc44d3c5f188e99f267a559e2d1f.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-06T09:09:33+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/addToGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mc_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `mc_auth_group` WHERE `id` IN ('14')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `mc_user` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `mc_auth_group_access` (`group_id`,`uid`) VALUES ('14','23') [ RunTime:0.0010s ]
+
+[ 2016-04-06T09:09:33+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459904922692
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:09:33+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459904922693
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0060s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:09:48+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/del/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 351 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: DELETE FROM `mc_user` WHERE `id` = 23 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 362 行.
+SQL: SELECT * FROM `mc_user` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 332 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `mc_auth_group_access` WHERE `uid` = 23 [ RunTime:0.0000s ]
+
+[ 2016-04-06T09:09:48+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459904922694
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:09:48+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459904922695
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:09:52+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459904922696
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:10:07+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/add?_=1459904922697
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:10:12+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `mc_user` WHERE `username` = 'test1' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 246 行.
+SQL: INSERT INTO `mc_user` (`username`,`password`,`status`,`remark`,`last_login_time`) VALUES ('test1','c4ca4238a0b923820dcc509a6f75849b','1','','1459905012') [ RunTime:0.0010s ]
+
+[ 2016-04-06T09:10:13+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459904922698
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-06T09:10:18+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459904922699
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0070s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:10:20+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmemberlookup/groupid/14?_=1459904922700
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: limit D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY `id` asc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\4dfabc44d3c5f188e99f267a559e2d1f.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:10:22+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/addToGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `mc_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `mc_auth_group` WHERE `id` IN ('14')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0070s ]
+SQL: SELECT `id` FROM `mc_user` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `mc_auth_group_access` (`group_id`,`uid`) VALUES ('14','24') [ RunTime:0.0010s ]
+
+[ 2016-04-06T09:10:22+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459904922701
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:10:22+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459904922702
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0060s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:10:28+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459904922703
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:10:30+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/removeFromGroup/uid/24/group_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant UID - assumed 'UID' D:\wamp\www\mcwcms\Application\Admin\Controller\AuthGroupController.class.php 第 217 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0050s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `mc_auth_group_access` WHERE `uid` = 24 AND `group_id` = 14 [ RunTime:0.0010s ]
+
+[ 2016-04-06T09:10:30+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459904922704
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:10:30+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459904922705
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:10:41+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/edit/id/24?_=1459904922706
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `mc_user` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:10:47+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/del/id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 351 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+SQL: DELETE FROM `mc_user` WHERE `id` = 24 [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 362 行.
+SQL: SELECT * FROM `mc_user` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 332 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0050s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `mc_auth_group_access` WHERE `uid` = 24 [ RunTime:0.0010s ]
+
+[ 2016-04-06T09:10:58+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/del/id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 351 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0030s ]
+SQL: DELETE FROM `mc_user` WHERE `id` = 24 [ RunTime:0.0000s ]
+
+[ 2016-04-06T09:11:07+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459904922707
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:11:14+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459904922708
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:15:52+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:15:53+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/Index/doc/doc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:doc
+
+[ 2016-04-06T09:15:54+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459905353096
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:15:57+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/add?_=1459905353097
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:16:02+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `mc_user` WHERE `username` = 'test1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 246 行.
+SQL: INSERT INTO `mc_user` (`username`,`password`,`status`,`remark`,`last_login_time`) VALUES ('test1','c4ca4238a0b923820dcc509a6f75849b','1','','1459905362') [ RunTime:0.0000s ]
+
+[ 2016-04-06T09:16:02+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459905353098
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-06T09:16:03+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459905353099
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:16:04+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459905353100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:16:06+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmemberlookup/groupid/14?_=1459905353101
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: limit D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY `id` asc LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: keys D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\4dfabc44d3c5f188e99f267a559e2d1f.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-06T09:16:09+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/addToGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mc_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `mc_auth_group` WHERE `id` IN ('14')  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `mc_user` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `mc_auth_group_access` (`group_id`,`uid`) VALUES ('14','25') [ RunTime:0.0010s ]
+
+[ 2016-04-06T09:16:09+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459905353102
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-06T09:16:09+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459905353103
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-04-06T09:16:28+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/removeFromGroup/uid/25/group_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant UID - assumed 'UID' D:\wamp\www\mcwcms\Application\Admin\Controller\AuthGroupController.class.php 第 217 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `mc_auth_group_access` WHERE `uid` = 25 AND `group_id` = 14 [ RunTime:0.0010s ]
+
+[ 2016-04-06T09:16:28+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459905353104
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-04-06T09:16:28+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459905353105
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-04-06T09:16:48+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459905353106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:16:51+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/del/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 351 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: DELETE FROM `mc_user` WHERE `id` = 25 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mc_auth_group_access` WHERE `uid` = 25 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-06T09:17:09+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459905353107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:18:20+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/add?_=1459905353108
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:18:26+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `mc_user` WHERE `username` = 'test1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 246 行.
+SQL: INSERT INTO `mc_user` (`username`,`password`,`status`,`remark`,`last_login_time`) VALUES ('test1','c4ca4238a0b923820dcc509a6f75849b','1','','1459905506') [ RunTime:0.0000s ]
+
+[ 2016-04-06T09:18:26+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459905353109
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:18:27+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459905353110
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:18:28+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459905353111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0060s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:18:29+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmemberlookup/groupid/14?_=1459905353112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: limit D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY `id` asc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\4dfabc44d3c5f188e99f267a559e2d1f.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:18:33+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/addToGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mc_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `mc_auth_group` WHERE `id` IN ('14')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0070s ]
+SQL: SELECT `id` FROM `mc_user` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `mc_auth_group_access` (`group_id`,`uid`) VALUES ('14','26') [ RunTime:0.0030s ]
+
+[ 2016-04-06T09:18:33+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459905353113
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:18:33+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459905353114
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:18:36+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/removeFromGroup/uid/26/group_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant UID - assumed 'UID' D:\wamp\www\mcwcms\Application\Admin\Controller\AuthGroupController.class.php 第 217 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0050s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `mc_auth_group_access` WHERE `uid` = 26 AND `group_id` = 14 [ RunTime:0.0010s ]
+
+[ 2016-04-06T09:18:37+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459905353115
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-06T09:18:37+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459905353116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0060s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:18:46+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/del/id/26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 351 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: DELETE FROM `mc_user` WHERE `id` = 26 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mc_auth_group_access` WHERE `uid` = 26 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:25:05+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459905353117
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:25:06+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/add?_=1459905353118
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-04-06T09:25:12+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `mc_user` WHERE `username` = 'test1' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 246 行.
+SQL: INSERT INTO `mc_user` (`username`,`password`,`status`,`remark`,`last_login_time`) VALUES ('test1','c4ca4238a0b923820dcc509a6f75849b','1','','1459905912') [ RunTime:0.0020s ]
+
+[ 2016-04-06T09:25:12+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459905353119
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-06T09:25:17+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459905353120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0090s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:25:18+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmemberlookup/groupid/14?_=1459905353121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0070s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: limit D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY `id` asc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\4dfabc44d3c5f188e99f267a559e2d1f.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:25:21+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/addToGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `mc_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `mc_auth_group` WHERE `id` IN ('14')  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `mc_user` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `mc_auth_group_access` (`group_id`,`uid`) VALUES ('14','27') [ RunTime:0.0000s ]
+
+[ 2016-04-06T09:25:21+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459905353122
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:25:21+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459905353123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:25:25+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/removeFromGroup/uid/27/group_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant UID - assumed 'UID' D:\wamp\www\mcwcms\Application\Admin\Controller\AuthGroupController.class.php 第 217 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `mc_auth_group_access` WHERE `uid` = 27 AND `group_id` = 14 [ RunTime:0.0010s ]
+
+[ 2016-04-06T09:25:26+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459905353124
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:25:26+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459905353125
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0030s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:25:31+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/del/id/27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 351 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: DELETE FROM `mc_user` WHERE `id` = 27 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mc_auth_group_access` WHERE `uid` = 27 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-04-06T09:25:31+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459905353126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-06T09:25:31+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459905353127
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:26:12+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/add?_=1459905353128
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:26:18+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `mc_user` WHERE `username` = 'test1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 246 行.
+SQL: INSERT INTO `mc_user` (`username`,`password`,`status`,`remark`,`last_login_time`) VALUES ('test1','c4ca4238a0b923820dcc509a6f75849b','1','','1459905978') [ RunTime:0.0000s ]
+
+[ 2016-04-06T09:26:18+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459905353129
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-06T09:26:19+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/add?_=1459905353130
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:26:24+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `mc_user` WHERE `username` = 'test2' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 246 行.
+SQL: INSERT INTO `mc_user` (`username`,`password`,`status`,`remark`,`last_login_time`) VALUES ('test2','c4ca4238a0b923820dcc509a6f75849b','1','','1459905984') [ RunTime:0.0020s ]
+
+[ 2016-04-06T09:26:24+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459905353131
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:26:28+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459905353132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0100s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-06T09:26:30+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmemberlookup/groupid/14?_=1459905353133
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: limit D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY `id` asc LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\4dfabc44d3c5f188e99f267a559e2d1f.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:26:34+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/addToGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0090s ]
+SQL: SELECT `id` FROM `mc_auth_group` WHERE `id` IN ('14')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `mc_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `mc_user` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `mc_auth_group_access` (`group_id`,`uid`) VALUES ('14','28'),('14','29') [ RunTime:0.0010s ]
+
+[ 2016-04-06T09:26:35+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459905353135
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:26:35+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459905353134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-06T09:26:40+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/removeFromGroup/uid/29/group_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant UID - assumed 'UID' D:\wamp\www\mcwcms\Application\Admin\Controller\AuthGroupController.class.php 第 217 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `mc_auth_group_access` WHERE `uid` = 29 AND `group_id` = 14 [ RunTime:0.0010s ]
+
+[ 2016-04-06T09:26:40+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459905353136
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-06T09:26:40+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459905353137
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:26:43+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/removeFromGroup/uid/28/group_id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant UID - assumed 'UID' D:\wamp\www\mcwcms\Application\Admin\Controller\AuthGroupController.class.php 第 217 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0040s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\wamp\www\mcwcms\ThinkPHP\Library\Think\Model.class.php 第 511 行.
+SQL: DELETE FROM `mc_auth_group_access` WHERE `uid` = 28 AND `group_id` = 14 [ RunTime:0.0000s ]
+
+[ 2016-04-06T09:26:43+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/index?_=1459905353138
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_auth_group` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_auth_group` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-06T09:26:43+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/AuthGroup/groupmember/id/14?_=1459905353139
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Model\AuthGroupModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\AuthGroupModel.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0030s ]
+SQL: SELECT m.id,m.username,m.last_login_time,m.last_login_ip,m.status FROM mc_user m INNER JOIN mc_auth_group_access a ON m.id=a.uid  WHERE a.group_id = 14 AND ( m.status>-1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-06T09:27:05+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/delselect
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 351 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+SQL: DELETE FROM `mc_user` WHERE `id` IN ('28','29') [ RunTime:0.0320s ]
+NOTIC: [8] Undefined index: connection D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `mc_auth_group_access` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mc_auth_group_access` WHERE `uid` IN ('28','29') LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-04-06T09:27:05+08:00 ] 127.0.0.1 /mcwcms/index.php/Admin/User/index?_=1459905353140
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: orderField D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 73 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 75 行.
+NOTIC: [8] Undefined index: pageSize D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `mc_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 88 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `mc_user` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: modelType D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: pageCurrent D:\wamp\www\mcwcms\Application\Common\Model\BaseModel.class.php 第 99 行.
+SQL: SELECT * FROM `mc_user` WHERE `status` > -1 ORDER BY id ASC LIMIT 0,20   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: last_loin_ip D:\wamp\www\mcwcms\Application\Admin\Model\UserModel.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 9 行.
+NOTIC: [8] Undefined variable: user D:\wamp\www\mcwcms\Application\Runtime\Cache\Admin\26aaa567eb9acdbcb9e2554cd2626e00.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

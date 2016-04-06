@@ -64,7 +64,11 @@ class UserController extends CommonController
             $condition['id']=$id;
             if($this->model->remove($condition)){
                 $gcondition['uid']=$id;
-                $this->ajaxReturn($this->model->removefromgroup($gcondition));
+                if ($this->model->checkID($gcondition)){
+                    $this->ajaxReturn($this->model->removefromgroup($gcondition));
+                }else{
+                    $this->ajaxReturn(jsonArray(200,C('ALERT_MSG.DELETE_SUCCESS'),CONTROLLER_NAME,false));
+                }
             } else {
                 $this->ajaxReturn(jsonArray(300,C('ALERT_MSG.DELETE_FAILED'),CONTROLLER_NAME,false));
             }
@@ -81,7 +85,11 @@ class UserController extends CommonController
             $condition['id']=array('in',$ids);
             if($this->model->remove($condition)){
                 $gcondition['uid']=array('in',$ids);
-                $this->ajaxReturn($this->model->removefromgroup($gcondition));
+                if ($this->model->checkID($gcondition)){
+                    $this->ajaxReturn($this->model->removefromgroup($gcondition));
+                }else{
+                    $this->ajaxReturn(jsonArray(200,C('ALERT_MSG.DELETE_SUCCESS'),CONTROLLER_NAME,false));
+                }
             }else{
                 $this->ajaxReturn(jsonArray(300,C('ALERT_MSG.DELETE_FAILED'),CONTROLLER_NAME,false));
             }
