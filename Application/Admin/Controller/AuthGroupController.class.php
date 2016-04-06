@@ -186,7 +186,9 @@ class AuthGroupController extends CommonController
     public function groupmember(){
         $id=I('get.id',0,'intval');
         if($id>0){
+            //pp(AuthGroupModel::memberInGroup($id));die;
             $this->groupmember=AuthGroupModel::memberInGroup($id);
+
         }
         $this->display();
     }
@@ -196,6 +198,7 @@ class AuthGroupController extends CommonController
         if($groupid>0){
             $uids=AuthGroupModel::memberInGroup($groupid);
         }
+        //pp($uids);die;
         $ontInIds=array();
         foreach ($uids as $val){
             array_push($ontInIds,$val['id']);

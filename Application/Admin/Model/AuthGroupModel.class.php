@@ -136,23 +136,7 @@ class AuthGroupModel extends CommonModel
         }
     }
 
-    /**
-     * 检查用户组是否全部存在
-     * @param array|string $gid  用户组id列表
-     * @author 朱亚杰 <zhuyajie@topthink.net>
-     */
     public function checkGroupId($gid){
         return $this->checkId('AuthGroup',$gid, '以下用户组id不存在:');
     }
-
-    /**
-     * 检查分类是否全部存在
-     * @param array|string $cid  栏目分类id列表
-     * @author 朱亚杰 <zhuyajie@topthink.net>
-     */
-    public function checkCategoryId($cid){
-        return $this->checkId('Category',$cid, '以下分类id不存在:');
-    }
-
-
 }
