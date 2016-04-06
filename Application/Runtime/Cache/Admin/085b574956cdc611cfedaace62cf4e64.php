@@ -250,7 +250,7 @@
                             <ul class="menu-items" data-faicon="hand-o-up">
                                 <li><a href="<?php echo U('User/index');?>" data-options="{id:'user_index', faicon:'user'}">用户管理</a></li>
                                 <li><a href="<?php echo U('AuthGroup/index');?>" data-options="{id:'authgroup_index', faicon:'group'}">角色管理</a></li>
-                                <li><a href="<?php echo U('Menu/index');?>" data-options="{id:'menu_index', faicon:'check-square-o'}">权限管理</a></li>
+                                <li><a href="<?php echo U('Menu/index');?>" data-options="{id:'menu_index', faicon:'check-square-o'}">菜单管理</a></li>
                             </ul>
                         </div>
                     </li>

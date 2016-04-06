@@ -30,6 +30,7 @@ class AuthGroupController extends CommonController
     public function add()
     {
         if (IS_POST) {
+            $_POST['type']=AuthGroupModel::TYPE_ADMIN;
             $data = $this->model->create();
             if($data){
                 $this->ajaxReturn($this->model->add($data));
@@ -76,8 +77,9 @@ class AuthGroupController extends CommonController
                 //pp($gcondition);die;
                 if($this->model->groupcheck($gcondition)){
                     $this->ajaxReturn($this->model->removefromgroup($gcondition));
+                }else{
+                    $this->ajaxReturn(jsonArray(200,C('ALERT_MSG.DELETE_SUCCESS'),CONTROLLER_NAME,false));
                 }
-                $this->ajaxReturn(jsonArray(200,C('ALERT_MSG.DELETE_SUCCESS'),CONTROLLER_NAME,false));
             } else {
                 $this->ajaxReturn(jsonArray(300,C('ALERT_MSG.DELETE_FAILED'),CONTROLLER_NAME,false));
             }
@@ -96,8 +98,9 @@ class AuthGroupController extends CommonController
                 $gcondition['group_id']=array('in',$ids);
                 if($this->model->groupcheck($gcondition)){
                     $this->ajaxReturn($this->model->removefromgroup($gcondition));
+                }else{
+                    $this->ajaxReturn(jsonArray(200,C('ALERT_MSG.DELETE_SUCCESS'),CONTROLLER_NAME,false));
                 }
-                $this->ajaxReturn(jsonArray(200,C('ALERT_MSG.DELETE_SUCCESS'),CONTROLLER_NAME,false));
             }else{
                 $this->ajaxReturn(jsonArray(300,C('ALERT_MSG.DELETE_FAILED'),CONTROLLER_NAME,false));
             }
@@ -115,6 +118,7 @@ class AuthGroupController extends CommonController
         $main_rules  = M('AuthRule')->where($map)->getField('name,id');
         $map         = array('module'=>'admin','type'=>AuthGroupModel::RULE_URL,'status'=>1);
         $child_rules = M('AuthRule')->where($map)->getField('name,id');
+        //pp($node_list);die;
         $this->assign('main_rules', $main_rules);
         $this->assign('auth_rules', $child_rules);
         $this->assign('node_list',  $node_list);
