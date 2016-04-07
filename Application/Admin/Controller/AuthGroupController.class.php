@@ -205,6 +205,7 @@ class AuthGroupController extends CommonController
         $this->display();
     }
 
+    //从组中删除单个用户
     public function removeFromGroup(){
         $uid = I('get.uid',0,'intval');
         $gid = I('get.group_id',0,'intval');
@@ -216,7 +217,26 @@ class AuthGroupController extends CommonController
         }
         $condition['uid']=$uid;
         $condition['group_id']=$gid;
+        //pp($this->model->removefromgroup($condition));die;
         $this->ajaxReturn($this->model->removefromgroup($condition));
+    }
+
+    //从组中批量删除用户
+    public function delUserFromGroup(){
+        $ids=I('ids','','trim');
+        $gid=I('get.group_id',0,'intval');
+        if( empty($ids) ){
+            $this->ajaxReturn(jsonArray(300,'参数有误!',CONTROLLER_NAME,true));
+        }
+        if($gid==0){
+            $this->ajaxReturn(jsonArray(300,'参数有误!',CONTROLLER_NAME,true));
+        }
+        $condition['uid']  = array('in',$ids);
+        $condition['group_id']=$gid;
+        //pp($condition);die;
+        //pp($this->model->removefromgroup($condition));die;
+        $this->ajaxReturn($this->model->removefromgroup($condition));
+
     }
 
     public function updateRules(){
