@@ -166,7 +166,6 @@ class AuthGroupController extends CommonController
                 $this->ajaxReturn(jsonArray(300,'用户不存在!',CONTROLLER_NAME,true));
             }
         }
-
         if( $gid && !$this->model->checkGroupId($gid)){
             $this->ajaxReturn(jsonArray(300,$this->model->error,CONTROLLER_NAME,true));
         }
@@ -180,7 +179,7 @@ class AuthGroupController extends CommonController
     public function groupmember(){
         $id=I('get.id',0,'intval');
         if($id>0){
-            $this->groupmember=AuthGroupModel::memberInGroup($id);
+            $this->groupmember=$this->model->memberInGroup($id);
         }
         $this->display();
     }
@@ -188,7 +187,7 @@ class AuthGroupController extends CommonController
     public function groupmemberlookup() {
         $groupid=I('get.groupid',0,'intval');
         if($groupid>0){
-            $uids=AuthGroupModel::memberInGroup($groupid);
+            $uids=$this->model->memberInGroup($groupid);
         }
         $ontInIds=array();
         foreach ($uids as $val){
@@ -207,28 +206,17 @@ class AuthGroupController extends CommonController
     }
 
     public function removeFromGroup(){
-        $uid = I('get.uid');
-        $gid = I('get.group_id');
-        if( $uid==UID ){
-            //$this->error('不允许解除自身授权');
-            $this->ajaxReturn(jsonArray(300,'不允许解除自身授权!',CONTROLLER_NAME,true));
-        }
-        if( empty($uid) || empty($gid) ){
-            //$this->error('参数有误');
+        $uid = I('get.uid',0,'intval');
+        $gid = I('get.group_id',0,'intval');
+        if($uid==0 and $gid==0){
             $this->ajaxReturn(jsonArray(300,'参数有误!',CONTROLLER_NAME,true));
         }
-        $AuthGroup = D('AuthGroup');
-        if( !$AuthGroup->find($gid)){
-            //$this->error('用户组不存在');
-            $this->ajaxReturn(jsonArray(300,'用户组不存在!',CONTROLLER_NAME,true));
+        if(!$this->model->checkGroupId($gid)){
+            $this->ajaxReturn(jsonArray(300,$this->model->error,CONTROLLER_NAME,true));
         }
-        if ( $AuthGroup->delFromGroup($uid,$gid) ){
-            //$this->success('操作成功');
-            $this->ajaxReturn(jsonArray(200,'操作成功!',CONTROLLER_NAME,false));
-        }else{
-            //$this->error('操作失败');
-            $this->ajaxReturn(jsonArray(300,'操作失败!',CONTROLLER_NAME,true));
-        }
+        $condition['uid']=$uid;
+        $condition['group_id']=$gid;
+        $this->ajaxReturn($this->model->removefromgroup($condition));
     }
 
     public function updateRules(){

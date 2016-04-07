@@ -74,7 +74,7 @@ class AuthGroupModel extends CommonModel
         return $this->getDetail($param = array('modelName' => $this->model), $condition);
     }
 
-    static public function memberInGroup($group_id){
+    public function memberInGroup($group_id){
         $prefix   = C('DB_PREFIX');
         $l_table  = $prefix.self::MEMBER;
         $r_table  = $prefix.self::AUTH_GROUP_ACCESS;
@@ -83,12 +83,13 @@ class AuthGroupModel extends CommonModel
             ->join($r_table.' a ON m.id=a.uid')
             ->where(array('a.group_id'=>$group_id))
             ->where('m.status>-1')
+            ->order('m.id')
             ->select();
         return $list;
     }
-    public function delFromGroup($uid,$gid){
+/*    public function delFromGroup($uid,$gid){
         return M(self::AUTH_GROUP_ACCESS)->where( array( 'uid'=>$uid,'group_id'=>$gid) )->delete();
-    }
+    }*/
 
     public function addToGroup($uid,$gid){
         $uid = is_array($uid)?implode(',',$uid):trim($uid,',');
@@ -123,5 +124,8 @@ class AuthGroupModel extends CommonModel
 
     public function checkGroupId($gid){
         return $this->checkId($this->model,$gid, '以下用户组id不存在:');
+    }
+    public function checkUserId($uid){
+        return $this->checkId('User',$uid, '以下用户id不存在:');
     }
 }

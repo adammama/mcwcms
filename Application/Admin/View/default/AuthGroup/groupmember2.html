@@ -1,0 +1,55 @@
+<div class="bjui-pageHeader">
+	<form action="{:U('addToGroup')}" class="pageForm" data-toggle="validate">
+		<input type="hidden" name="pageSize" value="{$Think.session.pageSize}">
+		<input type="hidden" name="pageCurrent" value="{$Think.session.pageCurrent}">
+		<input type="hidden" name="orderField" value="{$Think.session.orderField}">
+		<input type="hidden" name="orderDirection" value="{$Think.session.orderDirection}">
+		<div class="bjui-searchBar">
+			<label for='title' class='control-label'>成员列表:</label>
+			<input type="hidden" name="group_id" value="{:I('get.id')}">
+			<input type="text" name="uid" id="uid" size="30" data-toggle="lookup" data-url="{:U('groupmemberlookup',array('groupid'=>I('get.id')))}" data-width="600" data-height="300">
+			&nbsp;&nbsp;<button type="submit" class="btn-default" data-icon="save">新增</button>
+		</div>
+	</form>
+</div>
+<div class="bjui-pageContent">
+	<table data-toggle="tablefixed" class="table table-bordered  table-condensed table-hover" data-width="100%">
+		<thead>
+		<tr>
+			<th width="10" height="30"></th>
+			<th data-order-direction='asc' data-order-field='id'>ID</th>
+			<th data-order-direction='desc' data-order-field='username'>用户名</th>
+			<th>状态</th>
+			<th>操作</th>
+		</tr>
+		</thead>
+		<tbody>
+		<foreach name="groupmember" item="v">
+			<tr>
+				<td></td>
+				<td>{$v.id}</td>
+				<td>{$v.username}</td>
+				<td><if condition="$v.status EQ 1 "><img src="__PUBLIC__/images/ok.gif" border="0"/><else/><img src="__PUBLIC__/images/locked.gif" border="0"/></if></td>
+				<td><a href="{:U('removeFromGroup',array('uid'=>$v['id'],'group_id'=>I('get.id')))}" type="button" class="btn btn-red btn-sm" data-toggle="doajax" data-confirm-msg="确定要解除吗？" data-icon="trash">解除授权</a></td>
+			</tr>
+		</foreach>
+		</tbody>
+	</table>
+</div>
+<div class="bjui-pageFooter">
+	<div class="pages">
+		<span>每页&nbsp;</span>
+		<div class="selectPagesize">
+			<select data-toggle="selectpicker" data-toggle-change="changepagesize">
+				<option value="20" <if condition="$Think.session.pageSize eq 20">selected="selected"</if>>20</option>
+				<option value="40" <if condition="$Think.session.pageSize eq 40">selected="selected"</if>>40</option>
+				<option value="60" <if condition="$Think.session.pageSize eq 60">selected="selected"</if>>60</option>
+				<option value="120" <if condition="$Think.session.pageSize eq 120">selected="selected"</if>>120</option>
+				<option value="150" <if condition="$Think.session.pageSize eq 150">selected="selected"</if>>150</option>
+			</select>
+		</div>
+		<span>&nbsp;条，共 {$total} 条</span>
+	</div>
+	<div class="pagination-box" data-toggle="pagination" data-total="{$total}" data-page-size="{$Think.session.pageSize}" data-page-current="{$Think.session.pageCurrent}">
+	</div>
+</div>
