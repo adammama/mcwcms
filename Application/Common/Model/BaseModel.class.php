@@ -364,6 +364,26 @@ class BaseModel extends Model {
         return $result;
     }
 
+    public function checkId($modelname,$mid,$msg = '以下id不存在:'){
+        if(is_array($mid)){
+            $count = count($mid);
+            $ids   = implode(',',$mid);
+        }else{
+            $mid   = explode(',',$mid);
+            $count = count($mid);
+            $ids   = $mid;
+        }
+
+        $s = M($modelname)->where(array('id'=>array('IN',$ids)))->getField('id',true);
+        if(count($s)===$count){
+            return true;
+        }else{
+            $diff = implode(',',array_diff($mid,$s));
+            $this->error = $msg.$diff;
+            return false;
+        }
+    }
+
     /**
       +----------------------------------------------------------
      * 给$field字段值增加指定的值$value

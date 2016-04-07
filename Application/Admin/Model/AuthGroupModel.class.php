@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: mcw
- * Date: 2016/3/24
- * Time: 9:10
- */
-
 namespace Admin\Model;
 use Think\Model;
 use Common\Model\CommonModel;
@@ -26,6 +19,7 @@ class AuthGroupModel extends CommonModel
         'status' => array('name'=>'状态', 'order'=>'1'),
     );
     public $searchFields=array('id','title','status');
+    public $usersearchFields=array('id','username','status');
 
     protected $_validate = array(
         array('username', 'require', '用户名必填！'),
@@ -37,7 +31,17 @@ class AuthGroupModel extends CommonModel
 
     public function index($condition) {
         $list = $this->getPageList($param = array('modelName' => $this->model, 'field' => '*', 'order' => 'id ASC', 'listRows' => '20'), $condition);
-        //dump($list);die;
+        foreach ($list['info'] as $k => $v) {
+            $list['info'][$k]['id']=$v['id'];
+            $list['info'][$k]['title']=$v['title'];
+            $list['info'][$k]['status'] = $v['status'] == 1 ? "启用" : "禁用";
+        }
+        return $list;
+    }
+
+    //groupmemberlookup
+    public function GMlookup($condition) {
+        $list = $this->getPageList($param = array('modelName' => 'User', 'field' => '*', 'order' => 'id ASC', 'listRows' => '20'), $condition);
         foreach ($list['info'] as $k => $v) {
             $list['info'][$k]['id']=$v['id'];
             $list['info'][$k]['title']=$v['title'];
@@ -116,27 +120,8 @@ class AuthGroupModel extends CommonModel
             return true;
         }
     }
-    public function checkId($modelname,$mid,$msg = '以下id不存在:'){
-        if(is_array($mid)){
-            $count = count($mid);
-            $ids   = implode(',',$mid);
-        }else{
-            $mid   = explode(',',$mid);
-            $count = count($mid);
-            $ids   = $mid;
-        }
-
-        $s = M($modelname)->where(array('id'=>array('IN',$ids)))->getField('id',true);
-        if(count($s)===$count){
-            return true;
-        }else{
-            $diff = implode(',',array_diff($mid,$s));
-            $this->error = $msg.$diff;
-            return false;
-        }
-    }
 
     public function checkGroupId($gid){
-        return $this->checkId('AuthGroup',$gid, '以下用户组id不存在:');
+        return $this->checkId($this->model,$gid, '以下用户组id不存在:');
     }
 }

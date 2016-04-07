@@ -118,7 +118,6 @@ class AuthGroupController extends CommonController
         $main_rules  = M('AuthRule')->where($map)->getField('name,id');
         $map         = array('module'=>'admin','type'=>AuthGroupModel::RULE_URL,'status'=>1);
         $child_rules = M('AuthRule')->where($map)->getField('name,id');
-        //pp($node_list);die;
         $this->assign('main_rules', $main_rules);
         $this->assign('auth_rules', $child_rules);
         $this->assign('node_list',  $node_list);
@@ -137,14 +136,14 @@ class AuthGroupController extends CommonController
         }
         $_POST['module'] =  'admin';
         $_POST['type']   =  AuthGroupModel::TYPE_ADMIN;
-        $AuthGroup       =  D('AuthGroup');
-        $data = $AuthGroup->create();
+        //$AuthGroup       =  D('AuthGroup');
+        $data = $this->model->create();
         //dump($data);die;
         if ( $data ) {
             if ( empty($data['id']) ) {
-                $r = $AuthGroup->add();
+                $r = $this->model->add();
             }else{
-                $r = $AuthGroup->save();
+                $r = $this->model->save();
             }
             if($r===false){
                 $this->ajaxReturn(jsonArray(300,'操作失败!',CONTROLLER_NAME,true));
@@ -160,63 +159,52 @@ class AuthGroupController extends CommonController
         $uid = I('uid');
         $gid = I('group_id');
         if( empty($uid) ){
-            //$this->error('参数有误');
             $this->ajaxReturn(jsonArray(300,'参数有误!',CONTROLLER_NAME,true));
         }
-        $AuthGroup = D('AuthGroup');
         if(is_numeric($uid)){
             if( !M('User')->where(array('uid'=>$uid))->find() ){
-                //$this->error('用户不存在');
                 $this->ajaxReturn(jsonArray(300,'用户不存在!',CONTROLLER_NAME,true));
             }
         }
 
-        if( $gid && !$AuthGroup->checkGroupId($gid)){
-            //$this->error($AuthGroup->error);
-            $this->ajaxReturn(jsonArray(300,$AuthGroup->error,CONTROLLER_NAME,true));
+        if( $gid && !$this->model->checkGroupId($gid)){
+            $this->ajaxReturn(jsonArray(300,$this->model->error,CONTROLLER_NAME,true));
         }
-        if ( $AuthGroup->addToGroup($uid,$gid) ){
+        if ( $this->model->addToGroup($uid,$gid) ){
             $this->ajaxReturn(jsonArray(200,'操作成功!',CONTROLLER_NAME,false));
         }else{
-            //$this->error($AuthGroup->getError());
-            $this->ajaxReturn(jsonArray(300,$AuthGroup->error,CONTROLLER_NAME,false));
+            $this->ajaxReturn(jsonArray(300,$this->model->error,CONTROLLER_NAME,false));
         }
     }
 
     public function groupmember(){
         $id=I('get.id',0,'intval');
         if($id>0){
-            //pp(AuthGroupModel::memberInGroup($id));die;
             $this->groupmember=AuthGroupModel::memberInGroup($id);
-
         }
         $this->display();
     }
 
-    public function groupmemberlookup(){
+    public function groupmemberlookup() {
         $groupid=I('get.groupid',0,'intval');
         if($groupid>0){
             $uids=AuthGroupModel::memberInGroup($groupid);
         }
-        //pp($uids);die;
         $ontInIds=array();
         foreach ($uids as $val){
             array_push($ontInIds,$val['id']);
         }
-
-        $model = D('User');
-        $map = $this->_search('User');
+        $map=$this->searchCondition($this->model->usersearchFields);
         if(!empty($ontInIds)){
             $map['id']  = array('not in',$ontInIds);
         }
-//			pp($ontInIds);
-//			pp($map);die;
-        if (!empty($model)) {
-            $this->_rtlist($model, $map);
-        }
+        //GMlookup
+        $list = $this->model->GMlookup($map);
+        $this->assign('search', $this->searchKeywords());
+        $this->assign('user', $list['info']);
+        $this->assign('total', $list['total']);
         $this->display();
     }
-
 
     public function removeFromGroup(){
         $uid = I('get.uid');

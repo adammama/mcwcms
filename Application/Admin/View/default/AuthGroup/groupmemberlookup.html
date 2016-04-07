@@ -1,11 +1,11 @@
 <div class="bjui-pageHeader">
     <form id="pagerForm" data-toggle="ajaxsearch" action="{:U('groupmemberlookup')}" method="post">
-		<input type="hidden" name="pageSize" value="{$numPerPage}">
-	    <input type="hidden" name="pageCurrent" value="{$currentPage}">
-	    <input type="hidden" name="orderField" value="id">
-	    <input type="hidden" name="orderDirection" value="asc">	 
+        <input type="hidden" name="pageSize" value="{$Think.session.pageSize}">
+        <input type="hidden" name="pageCurrent" value="{$Think.session.pageCurrent}">
+        <input type="hidden" name="orderField" value="{$Think.session.orderField}">
+        <input type="hidden" name="orderDirection" value="{$Think.session.orderDirection}">
         <div class="bjui-searchBar">
-            <label>名称：</label><input type="text" value="{$_REQUEST['keys']}" name="keys" size="15">&nbsp;
+            <label>关键词：</label><input type="text" name="search" value="{$search}" class="form-control" size="15" />
             <button type="submit" class="btn-default" data-icon="search">查询</button>&nbsp;
             <a class="btn btn-orange" href="javascript:;" onclick="$.CurrentDialog.dialog('refresh');" data-icon="undo">清空查询</a>
             <!--<a class="btn btn-orange" href="javascript:;" data-toggle="reloadsearch" data-clear-query="true" data-icon="undo">清空查询</a>--></li>
@@ -31,7 +31,7 @@
             <tr>
                 <td>{$v.id}</td>
                 <td>{$v.username}</td>
-                <td><if condition="$v.status EQ 1 "><img src="__PUBLIC__/images/ok.gif" border="0"/><else/><img src="__PUBLIC__/images/locked.gif" border="0"/></if></td>
+                <td>{$v.status}</td>
                 <td><input type="checkbox" name="ids" data-toggle="icheck" value="{uid:{$v['id']} }"></td>
                 <td>
                     <a href="javascript:;" data-toggle="lookupback" data-args="{ uid:{$v['id']} }" class="btn btn-blue" title="选择本项" data-icon="check">选择</a>
@@ -46,14 +46,15 @@
         <span>每页&nbsp;</span>
         <div class="selectPagesize">
             <select data-toggle="selectpicker" data-toggle-change="changepagesize">
-                <option value="30">20</option>
-                <option value="60">40</option>
-                <option value="120">60</option>
-                <option value="150">80</option>
+                <option value="20" <if condition="$Think.session.pageSize eq 20">selected="selected"</if>>20</option>
+                <option value="40" <if condition="$Think.session.pageSize eq 40">selected="selected"</if>>40</option>
+                <option value="60" <if condition="$Think.session.pageSize eq 60">selected="selected"</if>>60</option>
+                <option value="120" <if condition="$Think.session.pageSize eq 120">selected="selected"</if>>120</option>
+                <option value="150" <if condition="$Think.session.pageSize eq 150">selected="selected"</if>>150</option>
             </select>
         </div>
-        <span>&nbsp;条，共 {$totalCount} 条</span>
+        <span>&nbsp;条，共 {$total} 条</span>
     </div>
-    <div class="pagination-box" data-toggle="pagination" data-total="{$totalCount}" data-page-size="{$numPerPage}" data-page-current="{$currentPage}">
+    <div class="pagination-box" data-toggle="pagination" data-total="{$total}" data-page-size="{$Think.session.pageSize}" data-page-current="{$Think.session.pageCurrent}">
     </div>
 </div>
