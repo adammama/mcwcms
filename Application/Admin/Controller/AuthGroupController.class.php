@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: mcw
- * Date: 2016/3/23
- * Time: 14:54
- */
-
 namespace Admin\Controller;
 use Common\Controller\CommonController;
 use Think\Controller;
